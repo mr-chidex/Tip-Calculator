@@ -1,0 +1,102 @@
+/*My Calculator*/
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  background: #e9e1e1;
+}
+
+#container {
+  width: 400px;
+  margin: 40px auto 0;
+  padding: 50px;
+  background: #eeacac;
+  border-radius: 10px;
+  color: #963232;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 15px -8px #635d5d;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #e9e1e1;
+}
+
+form {
+  text-align: left;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  display: block;
+  padding: 8px;
+  margin: 10px 0;
+  outline: none;
+  border: 1px solid #ccc;
+}
+
+form label {
+  font-weight: bold;
+}
+
+button {
+  background-color: #963232;
+  padding: 5px;
+  color: #ffff;
+  font-size: 30px;
+  width: 100%;
+  border: none;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  background: #5f3131;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+form input[type="text"] {
+  width: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tipCalculate {
+  font-size: 50px;
+  margin-top: 10px;
+  display: none;
+}
+
+#tipCalculate:before {
+  content: "Tip Amount";
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#tipCalculate sup {
+  font-size: 24px;
+  top: -20px;
+}
+
+#tipCalculate #each {
+  font-weight: bold;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block !important;
+}
